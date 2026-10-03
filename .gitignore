@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Test audio is never committed; labels are
+testdata/**/*.wav
+testdata/**/*.mp3
+testdata/**/*.m4a
+testdata/**/*.webm
+testdata/**/*.flac
+testdata/**/*.aiff
+
+# Supabase CLI local state
+supabase/.branches/
+supabase/.temp/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
