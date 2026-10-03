@@ -17,4 +17,4 @@ The full product and build spec is in `docs/PRD.md`. Read it before doing any wo
 
 ## Current status
 
-Phase 0 (setup) has not started.
+Phase 0 (setup) is in progress: scaffold, migrations with RLS, Modal skeleton and CI are in place. Waiting on a live Supabase project and Modal deploy to close out its acceptance criteria.
